@@ -1,5 +1,6 @@
 const { validationResult, matchedData } = require("express-validator");
 const User = require("../models/User");
+const Config = require("../models/Config");
 const bcrypt = require("bcryptjs");
 const secret = "test";
 const logger = require("../config/logger.js");

@@ -53,6 +53,7 @@ app.post("/user/upload/:id", upload.single("file"), async (req, res) => {
 app.use("/user", require("./routes/user.js"));
 app.use("/department", require("./routes/department.js"));
 app.use("/role_type", require("./routes/role_type.js"));
+app.use("/config", require("./routes/config.js"));
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
