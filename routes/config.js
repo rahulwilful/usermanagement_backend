@@ -1,7 +1,7 @@
 const express = require("express");
 const configRouter = express.Router();
 
-const { testConfig_typeAPI, GetConfigs } = require("../controllers/Config");
+const { testConfig_typeAPI, GetConfigs } = require("../controllers/config");
 
 //@desc Test Configs API
 //@route GET /api/v1/Configs/test
